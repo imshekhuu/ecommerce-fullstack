@@ -215,8 +215,9 @@ Screenshots are available in the `screenshots/` folder:
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Ds Shekhawat**  
 GitHub: https://github.com/imshekhuu
+
 LinkedIn: https://linkedin.com/in/divyasinghshekhawat
 ---
 
