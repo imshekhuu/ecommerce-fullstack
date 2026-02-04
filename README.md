@@ -47,24 +47,81 @@ This project demonstrates real-world backend logic, clean project structure, and
 
 ```
 ecommerce-fullstack/
+│
 ├── backend/
 │   ├── app/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── utils/
+│   │   ├── __init__.py
 │   │   ├── config.py
-│   │   └── __init__.py
+│   │   │
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── user_model.py
+│   │   │   ├── product_model.py
+│   │   │   ├── cart_model.py
+│   │   │   └── order_model.py
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth_routes.py
+│   │   │   ├── product_routes.py
+│   │   │   ├── cart_routes.py
+│   │   │   ├── order_routes.py
+│   │   │   └── admin_routes.py
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth_middleware.py
+│   │   │   └── db_helpers.py
+│   │   │
+│   │   └── extensions.py
+│   │
 │   ├── database/
 │   │   └── schema.sql
+│   │
 │   ├── run.py
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── README.md
 │
 ├── frontend/
 │   ├── user/
-│   └── admin/
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── cart.html
+│   │   ├── orders.html
+│   │   │
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   │
+│   │   └── js/
+│   │       ├── auth.js
+│   │       ├── products.js
+│   │       ├── cart.js
+│   │       └── orders.js
+│   │
+│   ├── admin/
+│   │   ├── admin_login.html
+│   │   ├── admin_dashboard.html
+│   │   │
+│   │   ├── css/
+│   │   │   └── admin.css
+│   │   │
+│   │   └── js/
+│   │       ├── admin_auth.js
+│   │       ├── admin_products.js
+│   │       └── admin_orders.js
+│   │
+│   └── README.md
 │
 ├── screenshots/
+│   ├── products.png
+│   ├── cart.png
+│   ├── orders.png
+│   └── admin_dashboard.png
+│
+├── .gitignore
 └── README.md
+
 ```
 
 ---
@@ -159,9 +216,8 @@ Screenshots are available in the `screenshots/` folder:
 ## 👨‍💻 Author
 
 **Your Name**  
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
-
+GitHub: https://github.com/imshekhuu
+LinkedIn: https://linkedin.com/in/divyasinghshekhawat
 ---
 
 ## 📌 Note
