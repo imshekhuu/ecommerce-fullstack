@@ -159,8 +159,8 @@ Screenshots are available in the `screenshots/` folder:
 ## 👨‍💻 Author
 
 **Your Name**  
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+GitHub: https://github.com/imshekhuu  
+LinkedIn: https://linkedin.com/in/divyasinghshekhawat
 
 ---
 
