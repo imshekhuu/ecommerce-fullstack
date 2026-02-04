@@ -217,7 +217,6 @@ Screenshots are available in the `screenshots/` folder:
 
 **Ds Shekhawat**  
 GitHub: https://github.com/imshekhuu
-
 LinkedIn: https://linkedin.com/in/divyasinghshekhawat
 ---
 
